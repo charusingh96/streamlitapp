@@ -10,19 +10,7 @@ Original file is located at
 !pip install streamlit
 
 # Commented out IPython magic to ensure Python compatibility.
-# %%writefile app.py
-# import streamlit as st
-# st.write('#Waddup')
-# st.write('##welcome')
-
-#!pip install pyngrok
-
-#from pyngrok import ngrok
-
-#ngrok.set_auth_token("2Ug6eSg3J0CrfTh1uil95P25Icm_7qdcXeCqpqxYzoryWF1qN")
-
-#$ngrok config add-authtoken 2Ug6eSg3J0CrfTh1uil95P25Icm_7qdcXeCqpqxYzoryWF1qN
-
-#!nohup streamlit run app.py --server.port 80 &
-#url = ngrok.connect(port = '80')
-#print(url)
+ %%writefile app.py
+ import streamlit as st
+ st.write('#Waddup')
+ st.write('##welcome')
