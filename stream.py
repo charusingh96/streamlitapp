@@ -1,17 +1,11 @@
+!pip install streamlit
 import streamlit as st
-import numpy as np 
-import pandas as pd
-from PIL import Image
-from streamlit_timeline import timeline
-import plotly.express as px
-import plotly.figure_factory as ff
-import requests
-import re
-import io
-import matplotlib.pyplot as plt
-import streamlit.components.v1 as components
-import tensorflow as tf
-st.sidebar.caption('Wish to connect?')
-st.sidebar.write('📧: charus@gmail.com')
-pdfFileObj = open('abc.pdf', 'rb')
-st.sidebar.download_button('text_to_display',pdfFileObj,file_name='abc.pdf',mime='pdf')
+
+def main():
+    st.title("My Portfolio")
+    st.write("Welcome to my portfolio!")
+
+    # Add your project descriptions, images, and links here
+
+if __name__ == "__main__":
+    main()
